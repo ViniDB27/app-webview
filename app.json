@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "privacyTools",
+    "slug": "privacyTools",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/privacy.png",
+    "plataform": "android",
+    "splash": {
+      "image": "./assets/privacy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/privacy.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "br.com.privacy"
+    },
+    "web": {
+      "favicon": "./assets/privacy.png"
+    },
+      "build": {
+        "preview": {
+          "android": {
+            "buildType": "apk"
+          }
+        },
+        "preview2": {
+          "android": {
+            "gradleCommand": ":app:assembleRelease"
+          }
+        },
+        "preview3": {
+          "developmentClient": true
+        },
+        "production": {}
+      
+    }
+  }
+}
